@@ -1,0 +1,4 @@
+insert into "movies" ("title", "summary", "link", "rating")
+values ('The Shawshank Redemption', 'A banker convicted of uxoricide forms a friendship over a quarter century with a hardened convict, while maintaining his innocence and trying to remain hopeful through simple compassion.', 'https://www.imdb.com/title/tt0111161/?ref_=chttp_t_1', 5),
+       ('Pulp Fiction', 'The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.', 'https://www.imdb.com/title/tt0110912/?ref_=chttp_t_8', 5),
+       ('The Silence of the Lambs', 'A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims.', 'https://www.imdb.com/title/tt0102926/?ref_=chttp_t_23', 5);
