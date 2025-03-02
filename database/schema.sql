@@ -6,18 +6,18 @@ drop schema "public" cascade;
 
 create schema "public";
 
-CREATE TABLE "users" (
+CREATE TABLE "public"."users" (
   "userId" serial PRIMARY KEY,
   "username" text unique,
   "hashedPassword" text
 );
 
-create table "movies" (
+create table "public"."movies" (
   "movieId"      serial PRIMARY KEY,
   "title"        text,
   "summary"     text,
   "link"        text,
-  "rating"   number,
+  "rating"   integer
 );
 
 COMMENT ON COLUMN "movies"."rating" IS 'values: 1, 2, 3, 4, 5';
